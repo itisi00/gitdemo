@@ -22,3 +22,10 @@ git commit -m 'wrote a readme file'
 git add file.txt
 git add file2.txt file3.ext
 git commit -m "desc "
+
+git status 查看当前仓库状态 
+git diss readme.txt 查看修改内容
+
+新增
+
+
