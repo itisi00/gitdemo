@@ -42,5 +42,4 @@ git reset --hard HEAD^
 git reflog 记录每一次命令
 git reset --hard commit_id 任意回退
 
-再来一次
-
+git is change
