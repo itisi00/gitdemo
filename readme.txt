@@ -28,4 +28,6 @@ git diss readme.txt 查看修改内容
 
 新增
 
+git log 查看历史记录
 
+git log --pretty=oneline 格式化，单行显示
