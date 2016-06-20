@@ -33,3 +33,14 @@ git log 查看历史记录
 git log --pretty=oneline 格式化，单行显示
 
 准备撤销的
+
+git reset --hard HEAD^  指向当前版本
+
+cat readme.txt 查看文件内容
+
+git reset --hard HEAD^  
+git reflog 记录每一次命令
+git reset --hard commit_id 任意回退
+
+再来一次
+
