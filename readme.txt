@@ -43,3 +43,15 @@ git reflog 记录每一次命令
 git reset --hard commit_id 任意回退
 
 git is change
+
+git diff HEAD --readme.txt 可查看工作起和版本库里面最新版本的区别
+git checkout --file 丢弃工作起的修改
+git checekout --file 就是让文件回到最近一次 git comimit 或者git add 状态
+
+git reset HEAD file 可以把暂存区的修改 撤销掉
+
+场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
+
+场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。
+
+场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
